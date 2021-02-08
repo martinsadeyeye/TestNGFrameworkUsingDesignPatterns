@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a025493-1fe3-452a-b17b-b1968c482a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BrowserDriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/martinscademy/Dataloads/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/martinscademy/Dataloads/reservationDetails.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/martinscademy/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/martinscademy/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/martinscademy/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/martinscademy/DemoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="168">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +78,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="42" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="595">
+              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,10 +152,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/martinscademy/PageComponents/RoundTrip.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/martinscademy/PageComponents/MultiTrip.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/martinscademy/AbstractComponent/AbstractComponent.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/martinscademy/Dataloads/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -407,12 +410,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoTest_flightTest - 2021.02.07 at 11h 17m 09s.xml">
-      <configuration name="DemoTest.flightTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DemoTest_flightTest - 2021.02.07 at 11h 58m 15s.xml">
-      <configuration name="DemoTest.flightTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DemoTest_flightTest - 2021.02.07 at 12h 13m 31s.xml">
       <configuration name="DemoTest.flightTest" configurationId="TestNG" />
     </history-entry>
@@ -437,12 +434,18 @@
     <history-entry file="DemoTest - 2021.02.07 at 18h 41m 24s.xml">
       <configuration name="DemoTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="DemoTest - 2021.02.07 at 18h 42m 17s.xml">
+      <configuration name="DemoTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DemoTest - 2021.02.07 at 22h 25m 57s.xml">
+      <configuration name="DemoTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="761" y="-7" width="782" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23822714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23822714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,14 +454,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Log Analyzer" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SOQL Query" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -545,13 +548,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/Dataloads/reservationDetails.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/martinscademy/PageObjects/TravelHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -611,23 +607,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        <state relative-caret-position="595">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/DemoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/martinscademy/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="168">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -19,12 +19,12 @@ public class BaseTest {
 
     public WebDriver initializeDriver() {
 
-        classpathRoot = new File(System.getProperty("user.dir"));
-        driverPath = new File(classpathRoot, "/BrowserDriver/");
-        System.out.println("launching chrome browser");
+        //classpathRoot = new File(System.getProperty("user.dir"));
+        //driverPath = new File(classpathRoot, "/BrowserDriver/");
+        //System.out.println("launching chrome browser");
         //declare the chrome driver from the project location
-        System.setProperty("webdriver.chrome.driver", driverPath + "/" + "chromedriver.exe");
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\MARTINS\\Downloads\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", driverPath + "/" + "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\MARTINS\\Downloads\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         return driver;
 

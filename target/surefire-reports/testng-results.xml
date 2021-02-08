@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="36817" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:47Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="36817" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:47Z">
+      <class name="org.martinscademy.DemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="setUp" is-config="true" duration-ms="12571" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="15098" started-at="2021-02-08T21:44:25Z" data-provider="getData" finished-at="2021-02-08T21:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination2=GOI, origin=MAA, destination3=DEL, destination=HYD, origin2=BLR, origin3=JLR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="4695" started-at="2021-02-08T21:44:40Z" data-provider="getData" finished-at="2021-02-08T21:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination2=GOI, origin=MAA, destination3=DEL, destination=HYD, origin2=BLR, origin3=JLR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="tearDown" is-config="true" duration-ms="2606" started-at="2021-02-08T21:44:45Z" finished-at="2021-02-08T21:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.martinscademy.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
