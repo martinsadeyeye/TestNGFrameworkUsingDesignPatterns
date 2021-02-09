@@ -71,6 +71,7 @@ public class MultiTrip extends AbstractComponent implements SearchFlightAvailabi
     public void makeStateReady(Consumer<MultiTrip> multiTripConsumer) {
         // ALL the common prequest code
         //executed before and after the business method.
+        System.out.println("Multi Trip Test");
         findElement(multiRadioBtn).click();
         findElement(modalPopUp).click();
         waitForElementToDisappear(modalPopUp);

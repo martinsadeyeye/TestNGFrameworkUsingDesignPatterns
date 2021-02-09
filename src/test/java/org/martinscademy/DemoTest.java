@@ -36,7 +36,7 @@ public class DemoTest extends BaseTest {
         System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         System.out.println(travelHomePage.getFooterNav().getLinkCount());
         System.out.println(travelHomePage.getNavigationBar().getLinkCount());
-
+        System.out.println(travelHomePage.getTitle());
         //travelHomePage.setBookingStrategy(new RoundTrip(driver,sectionElement));// Factory Design Patter solve this issue of creating object in a test class
         travelHomePage.setBookingStrategy("multitrip");//roundtrip //multitrip
     }

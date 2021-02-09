@@ -47,5 +47,9 @@ public class TravelHomePage {
         searchFlightAvailability.checkAvail(reservationDetails);
     }
 
+    public String getTitle() {
+        System.out.println("Hello Martins");
+        return driver.getTitle();
+    }
 
 }

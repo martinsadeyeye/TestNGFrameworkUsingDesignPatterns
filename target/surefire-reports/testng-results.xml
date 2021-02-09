@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="36817" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:47Z">
+  <suite name="Surefire suite" duration-ms="21619" started-at="2021-02-09T12:20:33Z" finished-at="2021-02-09T12:20:54Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="36817" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:47Z">
+    <test name="Surefire test" duration-ms="21619" started-at="2021-02-09T12:20:33Z" finished-at="2021-02-09T12:20:54Z">
       <class name="org.martinscademy.DemoTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="setUp" is-config="true" duration-ms="12571" started-at="2021-02-08T21:44:10Z" finished-at="2021-02-08T21:44:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="setUp" is-config="true" duration-ms="6106" started-at="2021-02-09T12:20:33Z" finished-at="2021-02-09T12:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="15098" started-at="2021-02-08T21:44:25Z" data-provider="getData" finished-at="2021-02-08T21:44:40Z">
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="10838" started-at="2021-02-09T12:20:39Z" data-provider="getData" finished-at="2021-02-09T12:20:50Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightTest -->
-        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="4695" started-at="2021-02-08T21:44:40Z" data-provider="getData" finished-at="2021-02-08T21:44:45Z">
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="flightTest" duration-ms="3021" started-at="2021-02-09T12:20:50Z" data-provider="getData" finished-at="2021-02-09T12:20:53Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="tearDown" is-config="true" duration-ms="2606" started-at="2021-02-08T21:44:45Z" finished-at="2021-02-08T21:44:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.martinscademy.DemoTest@2d554825]" name="tearDown" is-config="true" duration-ms="1212" started-at="2021-02-09T12:20:53Z" finished-at="2021-02-09T12:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
